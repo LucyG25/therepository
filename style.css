@@ -1,0 +1,42 @@
+
+h1{
+	font-family: Almendra, serif;
+}
+
+p{
+	font-family: Almendra, serif;
+}
+
+ul{
+	font-family: Almendra, serif;
+}
+
+a{
+	font-family: Almendra, serif;
+}
+
+
+
+.almendra-regular {
+  font-family: "Almendra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.almendra-bold {
+  font-family: "Almendra", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.almendra-regular-italic {
+  font-family: "Almendra", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.almendra-bold-italic {
+  font-family: "Almendra", serif;
+  font-weight: 700;
+  font-style: italic;
+}
