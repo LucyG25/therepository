@@ -40,3 +40,37 @@ a{
   font-weight: 700;
   font-style: italic;
 }
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+a:link, a:visited {
+  background-color: #715C83;
+  color: #224030;
+  padding: 14px 25px;
+  margin: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #472F5B;
+  color: #526863;
+}
+
+body {
+  background-color: #202732;
+  color: #8F79A1;
+}
+
+img {
+  opacity: 0.75;
+  margin: 0px 10px;
+}
+
