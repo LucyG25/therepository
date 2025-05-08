@@ -74,3 +74,40 @@ img {
   margin: 0px 10px;
 }
 
+div {
+width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+#1 {
+  animation-delay: 0s;
+}
+
+#2 {
+  animation-delay: 1s;
+}
+
+#3 {
+  animation-delay: 2s;
+}
+
+#4 {
+  animation-delay: 3s;
+}
+
+#5 {
+  animation-delay: 4s;
+}
+
+@keyframes example {
+  0%   {background-color:#53687E; left:0px; top:0px;}
+  25%  {background-color:#C17C74; left:100px; top:0px;}
+  50%  {background-color:#FFF1D0; left:200px; top:0px;}
+  75%  {background-color:#C17C74; left:300px; top:0px;}
+  100% {background-color:#53687E; left:400px; top:0px;}
+}
