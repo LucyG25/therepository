@@ -77,37 +77,40 @@ img {
 div {
 width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: #53687E;
   position: relative;
   animation-name: example;
-  animation-duration: 4s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
+  animation-timing-function: linear
 }
 
-#1 {
+#div1 {
   animation-delay: 0s;
 }
 
-#2 {
-  animation-delay: 1s;
+#div2 {
+  animation-delay: -8s;
 }
 
-#3 {
-  animation-delay: 2s;
+#div3 {
+  animation-delay: -6s;
 }
 
-#4 {
-  animation-delay: 3s;
+#div4 {
+  animation-delay: -4s;
 }
 
-#5 {
-  animation-delay: 4s;
+#div5 {
+  animation-delay: -2s;
 }
 
 @keyframes example {
   0%   {background-color:#53687E; left:0px; top:0px;}
-  25%  {background-color:#C17C74; left:100px; top:0px;}
-  50%  {background-color:#FFF1D0; left:200px; top:0px;}
-  75%  {background-color:#C17C74; left:300px; top:0px;}
-  100% {background-color:#53687E; left:400px; top:0px;}
+  20%  {background-color:#C17C74; left:100px; top:0px;}
+  40%  {background-color:#FFF1D0; left:200px; top:0px;}
+  60%  {background-color:#C17C74; left:300px; top:0px;}
+  80%  {background-color:#53687E; left:400px; top:0px;}
+  100% {background-color:#53687E; left:0px; top:0px;}
+
 }
